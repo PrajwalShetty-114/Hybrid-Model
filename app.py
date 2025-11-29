@@ -13,9 +13,9 @@ CORS(app)
 # --- CONFIGURATION: The Team of Experts ---
 # REPLACE THESE with your ACTUAL Render URLs
 API_URLS = {
-    "xgboost": "https://[YOUR-XGBOOST-URL].onrender.com/predict/",
-    "randomforest": "https://[YOUR-RF-URL].onrender.com/predict/",
-    "catboost": "https://[YOUR-CATBOOST-URL].onrender.com/predict/"
+    "xgboost": "https://xg-boost-model.onrender.com/predict/",
+    "randomforest": "https://randomforestmodel-latest.onrender.com/predict/",
+    "catboost": "https://catboost-model.onrender.com/predict/"
 }
 
 def call_model_api(name, url, payload):
